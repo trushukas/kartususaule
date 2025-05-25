@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mūsų meilės istorija 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffeef2, #ffffff);
+      color: #333;
+    }
+
+    .header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      color: #d6336c;
+      margin: 0;
+    }
+
+    .timeline {
+      position: relative;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      max-width: 500px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #d6336c;
+      transform: translateX(-50%);
+    }
+
+    .entry {
+      position: relative;
+      margin: 2rem 0;
+      width: 100%;
+    }
+
+    .entry .content {
+      background: white;
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
+      width: 80%;
+    }
+
+    .entry.left .content {
+      margin-left: auto;
+    }
+
+    .entry.right .content {
+      margin-right: auto;
+    }
+
+    .entry::after {
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border: 4px solid #d6336c;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .time {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 0.5rem;
+    }
+
+    .title {
+      font-size: 1.2rem;
+      color: #d6336c;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 1rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      .entry .content {
+        width: 100%;
+      }
+
+      .entry.left .content,
+      .entry.right .content {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Mūsų meilės istorija 💑</h1>
+    <p>Visi gražiausi mūsų pradžios etapai ir prisiminimai...</p>
+  </div>
+
+  <div class="timeline">
+    <div class="entry left">
+      <div class="content">
+        <div class="time">2023- - 2024-06-27</div>
+        <div class="title">⏰ 11 klasė</div>
+        <div class="description">Tada mes muzikos pamokose smagiai kalbėjomes apie mus vieninjančias istorijos pamokas.</div>
+      </div>
+    </div>
+
+    <div class="entry right">
+      <div class="content">
+        <div class="time">Nuo 2024-12-19</div>
+        <div class="title">❤️ Priešistorė</div>
+        <div class="description">Mes vėl vis dažniau ir dažniau pradėjome bendrauti bei sutarėm, kad reikės kartu pasimokyti.</div>
+      </div>
+    </div>
+
+    <div class="entry left">
+      <div class="content">
+        <div class="time">2025-03-03</div>
+        <div class="title">💬 "kaip tavo dienele?"</div>
+        <div class="description">Tąkart supratau labai aiškiai, kad tu nori su manim bendrauti ir aš atsakiau tuo pačiu.</div>
+      </div>
+    </div>
+
+    <div class="entry right">
+      <div class="content">
+        <div class="time">2025-03-07</div>
+        <div class="title"> Pirmas pasimatymas</div>
+        <div class="description">Ėjom į boulingą, kur nusifotografavom su Monika Liu, o tada pavažiavom iki Pučkorių atodangos, kur nusprendėm pabandyti būti daugiau nei kolegomis.</div>
+      </div>
+    </div>
+
+    <div class="entry left">
+      <div class="content">
+        <div class="time">2025-04-25</div>
+        <div class="title">🌙 Nemaloni situacija</div>
+        <div class="description">Paskendus ilguose pokalbiuose nakties metu prabusti pavyko tik nuskambėjus skambučiui į duris.</div>
+      </div>
+    </div>
+
+    <div class="entry right">
+      <div class="content">
+        <div class="time">2025-05-08</div>
+        <div class="title">📱 Story</div>
+        <div class="description">Viskam pasiteisinimas - mes kartu, bet ne kartu kartu.</div>
+      </div>
+    </div>
+
+    <div class="entry left">
+      <div class="content">
+        <div class="time">2025-05-11</div>
+        <div class="title">📍 Myliu</div>
+        <div class="description">Ne vien savaitgalius pradedam leisti kartu, o ir ištisas dienas. Myliu pinned.</div>
+      </div>
+    </div>
+
+    <div class="entry right">
+      <div class="content">
+        <div class="time">2025-05-23</div>
+        <div class="title">🔔 Paskutinis skambutis</div>
+        <div class="description">Nuo nieko čia jau nebepaslėpsi. Viską organizuojamės ir linksminamės kartu ir gražiai atrodome.</div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
